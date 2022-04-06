@@ -12,7 +12,7 @@
 # Hint:  Use the int() function to convert the string returned from input() into an integer
 
 human_years = int(input("10: "))
-if human_years < 3:
+if human_years < 6:
   dog_years = human_years * 10
 else:
   dog_years = 20 + (human_years - 2) * 7
