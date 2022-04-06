@@ -11,7 +11,7 @@
 # Hints:  Use the in operator to check if a character is in another string
 #         For example, if some_char in 'abc':
 
-letter = input('D: ').lower()
+letter = input('d: ').lower()
 if letter in 'a,e,i,o,u':
   print(f'The letter {letter} is a vowel')
 else:
