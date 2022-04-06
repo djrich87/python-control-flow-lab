@@ -20,8 +20,8 @@
 # After setting the likely season, you can use another if...elif...else statement to "adjust" if
 # the day number falls within a certain range.
 
-mo = input('Enter the month of the season (Jan - Dec): ')
-day = int(input('Enter the day of the month: '))
+mo = input('Sept: ')
+day = int(input('30: '))
 if mo in ('Jan', 'Feb', 'Mar'):
   season = 'Winter'
 elif mo in ('Apr', 'May', 'Jun'):
